@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Across 5.2.1 Release notes | Foreach Across</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Upgrades Spring Boot	2.4.13 (upgraded from 2.3):
+https://spring.io/blog/2020/11/12/spring-boot-2-4-0-available-now https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-2.4-Release-Notes Spring Framework 5.3.27 (upgraded from 5.2):
+https://spring.io/blog/2020/10/27/spring-framework-5-3-goes-ga https://github.com/spring-projects/spring-framework/wiki/What&#39;s-New-in-Spring-Framework-5.x#whats-new-in-version-53 https://github.com/spring-projects/spring-framework/wiki/Upgrading-to-Spring-Framework-5.x#upgrading-to-version-53 And obviously a thousand dependency upgrades that come with a Spring Boot upgrade.
+Marc did most of the code adaptations in early 2021; see Across Platform 5.2. The Bis team made some incremental improvements in some modules as well.
+The binaries are built with JDK8 and work with JDK11 as well. Spring Boot 2.">
+    <meta name="generator" content="Hugo 0.121.1">
+    
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+    
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="https://dvsp-iodigital.github.io/release-notes/5.2.1/">
+    
+
+    <meta property="og:title" content="Across 5.2.1 Release notes" />
+<meta property="og:description" content="Upgrades Spring Boot	2.4.13 (upgraded from 2.3):
+https://spring.io/blog/2020/11/12/spring-boot-2-4-0-available-now https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-2.4-Release-Notes Spring Framework 5.3.27 (upgraded from 5.2):
+https://spring.io/blog/2020/10/27/spring-framework-5-3-goes-ga https://github.com/spring-projects/spring-framework/wiki/What&#39;s-New-in-Spring-Framework-5.x#whats-new-in-version-53 https://github.com/spring-projects/spring-framework/wiki/Upgrading-to-Spring-Framework-5.x#upgrading-to-version-53 And obviously a thousand dependency upgrades that come with a Spring Boot upgrade.
+Marc did most of the code adaptations in early 2021; see Across Platform 5.2. The Bis team made some incremental improvements in some modules as well.
+The binaries are built with JDK8 and work with JDK11 as well. Spring Boot 2." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://dvsp-iodigital.github.io/release-notes/5.2.1/" /><meta property="article:section" content="release-notes" />
+<meta property="article:published_time" content="2023-08-31T12:00:00+01:00" />
+<meta property="article:modified_time" content="2023-08-31T12:00:00+01:00" />
+
+<meta itemprop="name" content="Across 5.2.1 Release notes">
+<meta itemprop="description" content="Upgrades Spring Boot	2.4.13 (upgraded from 2.3):
+https://spring.io/blog/2020/11/12/spring-boot-2-4-0-available-now https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-2.4-Release-Notes Spring Framework 5.3.27 (upgraded from 5.2):
+https://spring.io/blog/2020/10/27/spring-framework-5-3-goes-ga https://github.com/spring-projects/spring-framework/wiki/What&#39;s-New-in-Spring-Framework-5.x#whats-new-in-version-53 https://github.com/spring-projects/spring-framework/wiki/Upgrading-to-Spring-Framework-5.x#upgrading-to-version-53 And obviously a thousand dependency upgrades that come with a Spring Boot upgrade.
+Marc did most of the code adaptations in early 2021; see Across Platform 5.2. The Bis team made some incremental improvements in some modules as well.
+The binaries are built with JDK8 and work with JDK11 as well. Spring Boot 2."><meta itemprop="datePublished" content="2023-08-31T12:00:00+01:00" />
+<meta itemprop="dateModified" content="2023-08-31T12:00:00+01:00" />
+<meta itemprop="wordCount" content="302">
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Across 5.2.1 Release notes"/>
+<meta name="twitter:description" content="Upgrades Spring Boot	2.4.13 (upgraded from 2.3):
+https://spring.io/blog/2020/11/12/spring-boot-2-4-0-available-now https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-2.4-Release-Notes Spring Framework 5.3.27 (upgraded from 5.2):
+https://spring.io/blog/2020/10/27/spring-framework-5-3-goes-ga https://github.com/spring-projects/spring-framework/wiki/What&#39;s-New-in-Spring-Framework-5.x#whats-new-in-version-53 https://github.com/spring-projects/spring-framework/wiki/Upgrading-to-Spring-Framework-5.x#upgrading-to-version-53 And obviously a thousand dependency upgrades that come with a Spring Boot upgrade.
+Marc did most of the code adaptations in early 2021; see Across Platform 5.2. The Bis team made some incremental improvements in some modules as well.
+The binaries are built with JDK8 and work with JDK11 as well. Spring Boot 2."/>
+
+	
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        Foreach Across
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+<div class="ananke-socials">
+  
+</div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        Release-Notes
+      </aside>
+      
+
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
+    
+  </div>
+
+
+      <h1 class="f1 athelas mt3 mb1">Across 5.2.1 Release notes</h1>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2023-08-31T12:00:00+01:00">August 31, 2023</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><h1 id="upgrades">Upgrades</h1>
+<p>Spring Boot	2.4.13 (upgraded from 2.3):</p>
+<ul>
+<li><a href="https://spring.io/blog/2020/11/12/spring-boot-2-4-0-available-now">https://spring.io/blog/2020/11/12/spring-boot-2-4-0-available-now</a></li>
+<li><a href="https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-2.4-Release-Notes">https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-2.4-Release-Notes</a></li>
+</ul>
+<p>Spring Framework 5.3.27 (upgraded from 5.2):</p>
+<ul>
+<li><a href="https://spring.io/blog/2020/10/27/spring-framework-5-3-goes-ga">https://spring.io/blog/2020/10/27/spring-framework-5-3-goes-ga</a></li>
+<li><a href="https://github.com/spring-projects/spring-framework/wiki/What's-New-in-Spring-Framework-5.x#whats-new-in-version-53">https://github.com/spring-projects/spring-framework/wiki/What's-New-in-Spring-Framework-5.x#whats-new-in-version-53</a></li>
+<li><a href="https://github.com/spring-projects/spring-framework/wiki/Upgrading-to-Spring-Framework-5.x#upgrading-to-version-53">https://github.com/spring-projects/spring-framework/wiki/Upgrading-to-Spring-Framework-5.x#upgrading-to-version-53</a></li>
+</ul>
+<p>And obviously a thousand dependency upgrades that come with a Spring
+Boot upgrade.</p>
+<p>Marc did most of the code adaptations in early 2021; see <a href="https://confluence.hosted-tools.com/display/AX/Across+Platform+5.2">Across
+Platform
+5.2</a>. The
+Bis team made some incremental improvements in some modules as well.</p>
+<p>The binaries are built with JDK8 and work with JDK11 as well. Spring
+Boot 2.4 does not support JDK17, so that will have to wait until we
+upgrade to 2.7 (should be by the end of the year).</p>
+<p>The integration tests now run with relatively modern versions of the
+various databases (at least compared to the prehistoric versions
+before):</p>
+<ul>
+<li>MySQL: 8.0</li>
+<li>PostgreSQL: 14.8</li>
+<li>MSSQL: 2017</li>
+<li>Oracle: ???</li>
+</ul>
+<h1 id="upgrade-experience">Upgrade experience</h1>
+<p>Several of the &ldquo;Bis&rdquo; projects have been using the <code>5.2.0-SNAPSHOT</code>
+builds for years. This is also the reason why the release is <code>5.2.1</code>
+and not <code>5.2.0</code>: while preparing for this release, I did not want to
+mess up those snapshot builds that are used in production deployments.</p>
+<p>The only modifications in Cama can be found
+<a href="https://bitbucket.foreach.be/projects/VAR/repos/camashop/commits/d6f3c6c26c81d5fc38b169fe049bfd63a3e45e79">here</a>,
+but much of that commit actually consists of unrelated cleanup (mainly
+in the application.yml files): it&rsquo;s really only the <code>*Module</code>
+classes. The main issue we ran into was that modules were started in a
+slightly different order than before and because we had some missing
+dependency declarations between modules, the startup failed. A good
+trick to debug this, is to compare the startup logs from before and
+after the upgrade. I did this by saving those logs, cutting off the
+timestamps, and actually diffing them.</p>
+<h1 id="thanks">Thanks</h1>
+<p>Thanks to Marlies and Maaike for helping to test the 5.2.1-SNAPSHOT
+with a couple of applications from the Octos team, and to Stijn and
+Steven for a couple of good hints with upgrading/releasing Across.</p>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://dvsp-iodigital.github.io/" >
+    &copy;  Foreach Across 2023 
+  </a>
+    <div>
+<div class="ananke-socials">
+  
+</div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>

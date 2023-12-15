@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Foreach Across</title>
-    <link>https://dvsp-iodigital.github.io/</link>
-    <description>Recent content on Foreach Across</description>
+    <title>Release-Notes on Foreach Across</title>
+    <link>https://dvsp-iodigital.github.io/release-notes/</link>
+    <description>Recent content in Release-Notes on Foreach Across</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 31 Aug 2023 12:00:00 +0100</lastBuildDate>
-    <atom:link href="https://dvsp-iodigital.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://dvsp-iodigital.github.io/release-notes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Across 5.2.1 Release notes</title>
       <link>https://dvsp-iodigital.github.io/release-notes/5.2.1/</link>
       <pubDate>Thu, 31 Aug 2023 12:00:00 +0100</pubDate>
       <guid>https://dvsp-iodigital.github.io/release-notes/5.2.1/</guid>
       <description>Upgrades Spring Boot&#x9;2.4.13 (upgraded from 2.3):&#xA;https://spring.io/blog/2020/11/12/spring-boot-2-4-0-available-now https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-2.4-Release-Notes Spring Framework 5.3.27 (upgraded from 5.2):&#xA;https://spring.io/blog/2020/10/27/spring-framework-5-3-goes-ga https://github.com/spring-projects/spring-framework/wiki/What&#39;s-New-in-Spring-Framework-5.x#whats-new-in-version-53 https://github.com/spring-projects/spring-framework/wiki/Upgrading-to-Spring-Framework-5.x#upgrading-to-version-53 And obviously a thousand dependency upgrades that come with a Spring Boot upgrade.&#xA;Marc did most of the code adaptations in early 2021; see Across Platform 5.2. The Bis team made some incremental improvements in some modules as well.&#xA;The binaries are built with JDK8 and work with JDK11 as well. Spring Boot 2.</description>
-    </item>
-    <item>
-      <title>Across 5.2.1 released</title>
-      <link>https://dvsp-iodigital.github.io/posts/2023-08-31-across-5.2.1-released/</link>
-      <pubDate>Thu, 31 Aug 2023 12:00:00 +0200</pubDate>
-      <guid>https://dvsp-iodigital.github.io/posts/2023-08-31-across-5.2.1-released/</guid>
-      <description>After many years, Across Framework and Platform 5.2.1 was released today.&#xA;For the details see the Release notes.</description>
     </item>
   </channel>
 </rss>
