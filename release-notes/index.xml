@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Release Notes on Foreach Across</title>
+    <title>Foreach Across</title>
     <link>https://dvsp-iodigital.github.io/release-notes/</link>
-    <description>Recent content in Release Notes on Foreach Across</description>
+    <description>Recent content on Foreach Across</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 31 Aug 2023 12:00:00 +0100</lastBuildDate>
