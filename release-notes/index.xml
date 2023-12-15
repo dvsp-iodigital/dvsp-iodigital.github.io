@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Release-Notes on Foreach Across</title>
+    <title>Release Notes on Foreach Across</title>
     <link>https://dvsp-iodigital.github.io/release-notes/</link>
-    <description>Recent content in Release-Notes on Foreach Across</description>
+    <description>Recent content in Release Notes on Foreach Across</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 31 Aug 2023 12:00:00 +0100</lastBuildDate>
@@ -13,7 +13,7 @@
       <link>https://dvsp-iodigital.github.io/release-notes/5.2.1/</link>
       <pubDate>Thu, 31 Aug 2023 12:00:00 +0100</pubDate>
       <guid>https://dvsp-iodigital.github.io/release-notes/5.2.1/</guid>
-      <description>Upgrades Spring Boot&#x9;2.4.13 (upgraded from 2.3):&#xA;https://spring.io/blog/2020/11/12/spring-boot-2-4-0-available-now https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-2.4-Release-Notes Spring Framework 5.3.27 (upgraded from 5.2):&#xA;https://spring.io/blog/2020/10/27/spring-framework-5-3-goes-ga https://github.com/spring-projects/spring-framework/wiki/What&#39;s-New-in-Spring-Framework-5.x#whats-new-in-version-53 https://github.com/spring-projects/spring-framework/wiki/Upgrading-to-Spring-Framework-5.x#upgrading-to-version-53 And obviously a thousand dependency upgrades that come with a Spring Boot upgrade.&#xA;Marc did most of the code adaptations in early 2021; see Across Platform 5.2. The Bis team made some incremental improvements in some modules as well.&#xA;The binaries are built with JDK8 and work with JDK11 as well. Spring Boot 2.</description>
+      <description>&lt;p&gt;Notable changes in 5.2.1:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Upgraded to Spring Boot 2.4&lt;/li&gt;&#xA;&lt;li&gt;Upgraded to Spring Framework 5.3&lt;/li&gt;&#xA;&lt;li&gt;Upgraded test database versions&lt;/li&gt;&#xA;&lt;li&gt;And some minor changes in Spring Framework&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>
